@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="718web:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/718web_war</output-path>
+    <root id="archive" name="718web_war.war">
+      <element id="artifact" artifact-name="718web:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="commons-beanutils-1.7.0" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

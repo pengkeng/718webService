@@ -1,4 +1,4 @@
-package servlet.usercenter;
+package servlet;
 
 /**
  * 公共响应类
@@ -42,6 +42,10 @@ public class BaseResponse<T> {
 
     public static <T> BaseResponse<T> error() {
         return new BaseResponse<T>(CODE_FAIL, "fail", null);
+    }
+
+    public static <T> BaseResponse<T> error(int code) {
+        return new BaseResponse<T>(code, "fail", null);
     }
 
     public static <T> BaseResponse<T> error(String message) {

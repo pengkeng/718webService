@@ -11,7 +11,7 @@ import java.util.ResourceBundle;
 public class JDBCUtils {
     private static final ResourceBundle bundle = ResourceBundle.getBundle("jdbc");
     private static final String DRIVER = bundle.getString("driver");
-    private static final String URL = bundle.getString("url");
+    private static final String URL = bundle.getString("url2048");
     private static final String USER = bundle.getString("user");
     private static final String PASSWORD = bundle.getString("password");
 
