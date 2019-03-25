@@ -1,10 +1,11 @@
-package servlet.usercenter;
+package servlet.xiaodai2048.usercenter;
 
-public class UserBean {
+public class User2048 {
 
     private String username;
     private int id;
     private String phoneNumber;
+    private int gold;
 
     public String getUsername() {
         return username;
@@ -28,5 +29,13 @@ public class UserBean {
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    public int getGold() {
+        return gold;
+    }
+
+    public void setGold(int gold) {
+        this.gold = gold;
     }
 }
